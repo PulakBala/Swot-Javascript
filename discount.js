@@ -23,7 +23,6 @@ function ticketPrice(ticketQuantity) {
         return totalPrice;
     }
     else {
-        const first100Price =  100 * second100Rate;
         const second100Rate = 100 * second100Rate;
         const restTicketQunatity = ticketQuantity - 200;
         const resetTicketPrice = restTicketQunatity * restTicketRate;

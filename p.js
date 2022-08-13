@@ -1,7 +1,11 @@
-var marks = [ 13, 15, 14, 20, 18];
-for(var i=0; i<marks.length; i++){
-    if(marks[i] >=15){
-        continue;
+function publicBusFare(x) {
+    const reservedBus = 50;
+    const maicroBus = 11;
+    if(x <= 50) {
+        const reservedBus = x % 50;
+        return reservedBus;
     }
-    console.log(marks[i]);
-};
+   
+}
+let totalAmount = publicBusFare(112);
+console.log(totalAmount);
